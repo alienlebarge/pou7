@@ -1,7 +1,7 @@
 pou7
 ====
 
-Ballade accessible avec de jeunes enfants
+Ballades accessibles avec de jeunes enfants.
 
 ## Les ballades
 
