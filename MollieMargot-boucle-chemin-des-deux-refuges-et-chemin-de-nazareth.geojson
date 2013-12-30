@@ -280,7 +280,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "building"
+        "marker-symbol": "building",
+        "name": "Refuge de Carrouge"
       },
       "geometry": {
         "type": "Point",
@@ -293,7 +294,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "building"
+        "marker-symbol": "building",
+        "name": "Refuge de la Planie"
       },
       "geometry": {
         "type": "Point",
