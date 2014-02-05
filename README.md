@@ -60,3 +60,4 @@ Il y a deux solutions pour proposer une ballade:
 ### Ressources pour la création d'une carte
 
 - [Mapping geogson files on GitHub](https://help.github.com/articles/mapping-geojson-files-on-github)
+- [Editer des fichiers geojson en-ligne](http://geojson.io/)
