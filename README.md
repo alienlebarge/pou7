@@ -14,6 +14,12 @@ La ballade vous ménera jusqu'à l'Abbatiale de Romainmôtier. Elle est tout à 
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Croy-Romainmotier.geojson)
 
+### Echallens - Malapalud
+
+Parquer aux Tennis Club d'Echallens. Suivez le chemin qui longe le Talens jusqu'à la route de La Tuillère puis prennez en direction de Malapalud. Ensuite revenez par les champs en direction d'Echallens.
+
+[carte](https://github.com/alienlebarge/pou7/blob/master/Echallens-Malapalud.geosjon)
+
 ### Gstaad - Rougemont le long de la Sarine
 
 Cette ballade peut être fait avec une poussette tous terrain sans aucun problème.  
