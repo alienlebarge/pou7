@@ -23,7 +23,7 @@ Souvent à cours d'idée lorsqu'il s'agit de faire une ballade en famille, ce re
 
 ### Pully - Sentier des Bords du Lac
 
-Il est possible de faire un allé simple et de revenir par avec le bus des TL.
+Il est possible de faire un allé simple et de revenir par avec le bus des TL.  
 L'été, [un petit train](http://www.mntpully.ch/ "Mini-Train Pully") est en fonction à la place de jeux du Port de Pully.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Pully-SentierDesBordsDuLac.geojson)
