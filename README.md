@@ -1,7 +1,7 @@
 pou7
 ====
 
-Souvent à cours d'idée lorsqu'il s'agit de faire une ballade en famille, ce repository regroupe les ballades que vous pouvez faire avec de jeunes enfants.
+Souvent à court d'idées lorsqu'il s'agit de faire une balade en famille, ce repository regroupe les balades que vous pouvez faire avec de jeunes enfants.
 
 ---
 
