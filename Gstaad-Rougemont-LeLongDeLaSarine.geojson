@@ -445,6 +445,45 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.208876609802245,
+          46.48846529197843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.284193038940429,
+          46.474930972663046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "fire-station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.238702774047852,
+          46.48452059241596
+        ]
+      }
     }
   ]
 }
