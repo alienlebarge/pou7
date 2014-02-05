@@ -47,7 +47,7 @@ Si vous avez des questions concernant les ballades, merci d'[ouvir un cas](https
 
 Il y a deux solutions pour proposer une ballade:
 
-1. Faire un "fork" du repository, faire vos modifications et les proposer via un "pull request".
+1. Faire un "[fork](https://help.github.com/articles/fork-a-repo "Fork a repo")" du repository, faire vos modifications et les proposer via un "[pull request](https://help.github.com/articles/using-pull-requests "using pull requests")".
 2. [Créer un cas](https://github.com/alienlebarge/pou7/issues/new) un fournissant les informations nécéssaires et utiles.
 
 ### Ressources pour la création d'une carte
