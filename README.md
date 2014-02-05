@@ -34,3 +34,7 @@ Il est possible de faire un allé simple et de revenir par avec le bus des TL.
 L'été, [un petit train](http://www.mntpully.ch/ "Mini-Train Pully") est en fonction à la place de jeux du Port de Pully.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Pully-SentierDesBordsDuLac.geojson)
+
+## Questions
+
+Si vous avez des questions concernant les ballades, merci d'[ouvir un cas](https://github.com/alienlebarge/pou7/issues/new). Ainsi tout le monde pourra en profiter.
