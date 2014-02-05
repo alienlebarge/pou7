@@ -37,6 +37,11 @@ Il est possible de remonter au Cullayes avec le bus postale 75.
  
 ### Les Cullayes - Servion *par Le Vurzi*
 
+Depuis le centre du village des Cullayes, prennez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin betonné qui part à droite. Juste avant la route cantonale prendre à gauche le chemin forestier. Le suivre jusqu'à Servion.  
+Ce parcours passe vers deux places de jeux. La première se trouve au centre du vilage des Cullayes. La deuxième est au collège de Servion.  
+A noter que le chemin enprunté surplombe le Zoo de Servion. Cependant, il sera difficile de le rejoindre avec une poussette.  
+Il est possible de retounrer aux Cullayes avec le car postal 75.
+
 [carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-Servion.geojson)
 
 ### Les Cullayes - Refuge des Quatres Croisées
