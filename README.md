@@ -9,8 +9,8 @@ Souvent à court d'idées lorsqu'il s'agit de faire une balade en famille, ce re
 
 ### Croy - Romainmôtier
 
-Il est possible de parcer à Croy au terrain de football.  
-La ballade vous ménera jusqu'à l'Abbatiale de Romainmôtier. Elle est tout à fait praticable avec une poussette. Après avoir traversé le village de Croy et longé la route cantonnale sur quelques centaine de mettre, prenner le chemin qui descend en direction du Nozon. La suite de la ballade se ferra au coeur du valon du Nozon sur une petit chemin très bucolique.
+Il est possible de parquer à Croy au terrain de football.  
+La ballade vous mènera jusqu'à l'Abbatiale de Romainmôtier. Elle est tout à fait praticable avec une poussette. Après avoir traversé le village de Croy et longé la route cantonale sur quelques centaines de mètres, prenez le chemin qui descend en direction du Nozon. La suite de la ballade se ferra au coeur du vallon du Nozon sur un petit chemin très bucolique.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Croy-Romainmotier.geojson)
 
