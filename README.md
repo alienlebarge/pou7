@@ -5,6 +5,13 @@ Souvent à cours d'idée lorsqu'il s'agit de faire une ballade en famille, ce re
 
 ## Les ballades
 
+### Gstaad - Rougemont le long de la Sarine
+
+Cette ballade peut être fait avec une poussette tous terrain sans aucun problème.  
+Une idée est de prendre le MOB à Montreux jusqu'à Gstaad au départ de la ballade. Et pour le retour de reprendre le train entre Rougemont et Montreux.
+
+[carte](https://github.com/alienlebarge/pou7/blob/master/Gstaad-Rougemont-LeLongDeLaSarine.geojson)
+
 ### Les Cullayes - Mézières *par Les Moures*
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-Mezieres.geojson)
