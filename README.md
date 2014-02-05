@@ -16,38 +16,38 @@ La ballade vous mènera jusqu'à l'Abbatiale de Romainmôtier. Elle est tout à 
 
 ### Echallens - Malapalud
 
-Parquer aux Tennis Club d'Echallens. Suivez le chemin qui longe le Talens jusqu'à la route de La Tuillère puis prennez en direction de Malapalud. Ensuite revenez par les champs en direction d'Echallens.
+Parquer aux Tennis Club d'Echallens. Suivez le chemin qui longe le Talens jusqu'à la route de La Tuillère puis prenez en direction de Malapalud. Ensuite, revenez par les champs en direction d'Echallens.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Echallens-Malapalud.geosjon)
 
 ### Gstaad - Rougemont le long de la Sarine
 
-Cette ballade peut être fait avec une poussette tous terrain sans aucun problème.  
+Cette ballade peut-être fait avec une poussette tout terrain sans aucun problème.  
 Une idée est de prendre le [MOB](http://www.goldenpass.ch/) à Montreux jusqu'à Gstaad au départ de la ballade. Et pour le retour de reprendre le train entre Rougemont et Montreux.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Gstaad-Rougemont-LeLongDeLaSarine.geojson)
 
 ### Les Cullayes - Mézières *par Les Moures*
 
-Depuis le centre du village des Cullayes, prennez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à gauche. Suivez ce chemin jusqu'à Mézières.  
-Il y a trois places de jeux le long de ce parcours: Une au centre des Cullayes, une au terrain de football de Mézières et une au petit collège de Mézières.  
-Il est possible de remonter au Cullayes avec le bus postale 75.
+Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à gauche. Suivez ce chemin jusqu'à Mézières.  
+Il y a trois places de jeux le long de ce parcours: une au centre des Cullayes, une au terrain de football de Mézières et une au petit collège de Mézières.  
+Il est possible de remonter au Cullayes avec le bus postal 75.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-Mezieres.geojson)
  
 ### Les Cullayes - Servion *par Le Vurzi*
 
-Depuis le centre du village des Cullayes, prennez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin betonné qui part à droite. Juste avant la route cantonale prendre à gauche le chemin forestier. Le suivre jusqu'à Servion.  
-Ce parcours passe vers deux places de jeux. La première se trouve au centre du vilage des Cullayes. La deuxième est au collège de Servion.  
-A noter que le chemin enprunté surplombe le Zoo de Servion. Cependant, il sera difficile de le rejoindre avec une poussette.  
-Il est possible de retounrer aux Cullayes avec le car postal 75.
+Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à droite. Juste avant la route cantonale prendre à gauche le chemin forestier. Le suivre jusqu'à Servion.  
+Ce parcours passe vers deux places de jeux. La première se trouve au centre du village des Cullayes. La deuxième est au collège de Servion.  
+À noter que le chemin emprunté surplombe le Zoo de Servion. Cependant, il sera difficile de le rejoindre avec une poussette.  
+Il est possible de retourner aux Cullayes avec le car postal 75.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-Servion.geojson)
 
 ### Les Cullayes - Refuge des Quatres Croisées
 
-Du centre des Cullayes, prennez en direction de Mollie-Margot par la route Cantonnale. Prennez le premier chemin bétonné qui s'enfonce dans la forêt sur la gauche. Arrivé au refuge de Quatres Croisées prendre la première route à gauche et remonter jusqu'aux Cullayes.  
-Une place de jeux se trouve au millieux du village.
+Du centre des Cullayes, prenez en direction de Mollie-Margot par la route Cantonnale. Prenez le premier chemin bétonné qui s'enfonce dans la forêt sur la gauche. Arrivé au refuge de Quatres Croisées prendre la première route à gauche et remonter jusqu'aux Cullayes.  
+Une place de jeux se trouve au milieu du village.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-RefugeDesQuatreCroisees.geojson)
 
@@ -57,7 +57,7 @@ Une place de jeux se trouve au millieux du village.
 
 ### Pully - Sentier des Bords du Lac
 
-Il est possible de faire un allé simple et de revenir par avec le bus des TL.  
+Il est possible de faire un aller simple et de revenir par avec le bus des TL.  
 L'été, [un petit train](http://www.mntpully.ch/ "Mini-Train Pully") est en fonction à la place de jeux du Port de Pully.
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/Pully-SentierDesBordsDuLac.geojson)
@@ -66,7 +66,7 @@ L'été, [un petit train](http://www.mntpully.ch/ "Mini-Train Pully") est en fon
 
 ## Questions
 
-Si vous avez des questions concernant les ballades, merci d'[ouvir un cas](https://github.com/alienlebarge/pou7/issues/new). Ainsi tout le monde pourra en profiter.
+Si vous avez des questions concernant les ballades, merci d'[ouvrir un cas](https://github.com/alienlebarge/pou7/issues/new). Ainsi, tout le monde pourra en profiter.
 
 ## Proposer une ballade ou un changement
 
