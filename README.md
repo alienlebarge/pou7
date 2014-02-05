@@ -39,7 +39,7 @@ Une idée est de prendre le [MOB](http://www.goldenpass.ch/) à Montreux jusqu'�
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-RefugeDesQuatreCroisees.geojson)
 
-### Mollie-Margot Boucle par Ch. des Deux Refuges et Ch. de Nazareth
+### Mollie-Margot boucle par chemin des Deux Refuges et chemin de Nazareth
 
 [carte](https://github.com/alienlebarge/pou7/blob/master/MollieMargot-boucle-chemin-des-deux-refuges-et-chemin-de-nazareth.geojson)
 
@@ -56,7 +56,7 @@ L'été, [un petit train](http://www.mntpully.ch/ "Mini-Train Pully") est en fon
 
 Si vous avez des questions concernant les ballades, merci d'[ouvir un cas](https://github.com/alienlebarge/pou7/issues/new). Ainsi tout le monde pourra en profiter.
 
-## Proposer une ballade
+## Proposer une ballade ou un changement
 
 Il y a deux solutions pour proposer une ballade:
 
