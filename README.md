@@ -18,7 +18,7 @@ La ballade vous mènera jusqu'à l'Abbatiale de Romainmôtier. Elle est tout à 
 
 Parquer aux Tennis Club d'Echallens. Suivez le chemin qui longe le Talens jusqu'à la route de La Tuillère puis prenez en direction de Malapalud. Ensuite, revenez par les champs en direction d'Echallens.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/Echallens-Malapalud.geosjon)
+[carte](https://github.com/alienlebarge/pou7/blob/master/Echallens-Malapalud.geojson)
 
 ### Gstaad - Rougemont le long de la Sarine
 
