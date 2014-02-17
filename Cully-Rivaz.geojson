@@ -735,6 +735,48 @@
           46.47398152314036
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "triangle-stroked",
+        "description": "escaliers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.745406985282898,
+          46.48898605958983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "triangle-stroked",
+        "description": "escaliers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7455196380615225,
+          46.48972842182025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "triangle-stroked",
+        "description": "escaliers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.745417714118957,
+          46.489421875460664
+        ]
+      }
     }
   ]
 }
