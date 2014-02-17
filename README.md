@@ -12,7 +12,7 @@ Souvent à court d'idées lorsqu'il s'agit de faire une balade en famille, ce re
 Il est possible de parquer à Croy au terrain de football.  
 La ballade vous mènera jusqu'à l'Abbatiale de Romainmôtier. Elle est tout à fait praticable avec une poussette. Après avoir traversé le village de Croy et longé la route cantonale sur quelques centaines de mètres, prenez le chemin qui descend en direction du Nozon. La suite de la ballade se ferra au coeur du vallon du Nozon sur un petit chemin très bucolique.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/Croy-Romainmotier.geojson)
+[carte](Croy-Romainmotier.geojson)
 
 ### Cully - Rivaz
 
@@ -31,14 +31,14 @@ A Rivaz, rejoignez la gare au bord du lac.
 
 Parquer aux Tennis Club d'Echallens. Suivez le chemin qui longe le Talens jusqu'à la route de La Tuillère puis prenez en direction de Malapalud. Ensuite, revenez par les champs en direction d'Echallens.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/Echallens-Malapalud.geojson)
+[carte](Echallens-Malapalud.geojson)
 
 ### Gstaad - Rougemont le long de la Sarine
 
 Cette ballade peut-être fait avec une poussette tout terrain sans aucun problème.  
 Une idée est de prendre le [MOB](http://www.goldenpass.ch/) à Montreux jusqu'à Gstaad au départ de la ballade. Et pour le retour de reprendre le train entre Rougemont et Montreux.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/Gstaad-Rougemont-LeLongDeLaSarine.geojson)
+[carte](Gstaad-Rougemont-LeLongDeLaSarine.geojson)
 
 ### Les Cullayes - Mézières *par Les Moures*
 
@@ -46,7 +46,7 @@ Depuis le centre du village des Cullayes, prenez le chemin des Moures en directi
 Il y a trois places de jeux le long de ce parcours: une au centre des Cullayes, une au terrain de football de Mézières et une au petit collège de Mézières.  
 Il est possible de remonter au Cullayes avec le bus postal 75.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-Mezieres.geojson)
+[carte](LesCullayes-Mezieres.geojson)
  
 ### Les Cullayes - Servion *par Le Vurzi*
 
@@ -55,7 +55,7 @@ Ce parcours passe vers deux places de jeux. La première se trouve au centre du 
 À noter que le chemin emprunté surplombe le Zoo de Servion. Cependant, il sera difficile de le rejoindre avec une poussette.  
 Il est possible de retourner aux Cullayes avec le car postal 75.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/LesCullayes-Servion.geojson)
+[carte](LesCullayes-Servion.geojson)
 
 ### Les Cullayes - Refuge des Quatres Croisées
 
@@ -66,14 +66,14 @@ Une place de jeux se trouve au milieu du village.
 
 ### Mollie-Margot boucle par chemin des Deux Refuges et chemin de Nazareth
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/MollieMargot-boucle-chemin-des-deux-refuges-et-chemin-de-nazareth.geojson)
+[carte](MollieMargot-boucle-chemin-des-deux-refuges-et-chemin-de-nazareth.geojson)
 
 ### Pully - Sentier des Bords du Lac
 
 Il est possible de faire un aller simple et de revenir par avec le bus des TL.  
 L'été, [un petit train](http://www.mntpully.ch/ "Mini-Train Pully") est en fonction à la place de jeux du Port de Pully.
 
-[carte](https://github.com/alienlebarge/pou7/blob/master/Pully-SentierDesBordsDuLac.geojson)
+[carte](Pully-SentierDesBordsDuLac.geojson)
 
 ---
 
