@@ -25,7 +25,7 @@ A noter qu’il est possible de rejoindre Epesses par les vignes depuis la Gare 
 Arrivé à Epesses, il vous suffit de suivre le chemin de vignes (interdit à la circulation des voitures) jusqu’à Rivaz. C’est tout simple, c’est tout droit.  
 A Rivaz, rejoignez la gare au bord du lac.
 
-- [carte](Cully-Rivaz.geosjon)
+- [carte](Cully-Rivaz.geojon)
 
 ### Echallens - Malapalud
 
