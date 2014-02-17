@@ -605,6 +605,136 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.784728169441223,
+          46.474151464738945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.745283603668213,
+          46.489233514792396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.727189421653748,
+          46.4884689853833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7258697748184195,
+          46.48839142382836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "playground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.730606555938721,
+          46.48691034625048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "harbor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.731840372085571,
+          46.48734617875259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.741539239883423,
+          46.48900083306633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7453962564468375,
+          46.48871644293829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "swimming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.784889101982117,
+          46.47397043997418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "playground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.784738898277283,
+          46.47398152314036
+        ]
+      }
     }
   ]
 }
