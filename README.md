@@ -40,6 +40,14 @@ Une idée est de prendre le [MOB](http://www.goldenpass.ch/) à Montreux jusqu'�
 
 [carte](Gstaad-Rougemont-LeLongDeLaSarine.geojson)
 
+### Les Cullayes - Mézières *par les Bois de la Côte*
+
+C’est une sympathique ballade de 3 km qui traverse les Bois de la Côte puis emprunte le chemin des Troncs. Elle accessible avec poussette tout terrain. Le trajet de retour ou d'aller (si vous aimez les montées) peut se faire avec le bus postal 75.  
+Il suffit de suivre les indications des sentiers pédestres entre le Collège des Cullayes et Mézières.  
+Vous trouverez un coin pique-nique à peut prêt mi-parcourt.
+
+[carte](LesCullayes-Mezieres-BoisDeLaCote.geojson)
+
 ### Les Cullayes - Mézières *par Les Moures*
 
 Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à gauche. Suivez ce chemin jusqu'à Mézières.  
