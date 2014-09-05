@@ -51,7 +51,7 @@ $inuit-base-line-height:        28px !default;
 
 
 /*------------------------------------*\
-    #PAGE
+    #BASE
 \*------------------------------------*/
 
 
@@ -69,8 +69,11 @@ $inuit-heading-size-6:  18px;
 @import "bower_components/inuit-headings/base.headings";
 
 $base-heading-font-family: "bello-pro";
-$base-heading-color:       #556270;
+$base-heading-color: #556270;
 @import "base.headings";
+
+$color-links: #FF6B6B;
+@import "base.links";
 
 
 
