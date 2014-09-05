@@ -41,6 +41,8 @@ $inuit-base-line-height:        28px !default;
 
 
 @import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-reset/generic.reset";
+@import "generic.reset-fonts";
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
 
