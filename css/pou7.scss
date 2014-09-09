@@ -95,7 +95,9 @@ $color-links: #FF6B6B;
 \*------------------------------------*/
 
 
-/* nothing here */
+$container-width: 750px;
+$container-spacing: $inuit-base-spacing-unit;
+@import "componment.wrappers";
 
 
 

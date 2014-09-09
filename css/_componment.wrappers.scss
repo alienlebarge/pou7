@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #WRAPPERS
+\*------------------------------------*/
+
+/**
+ * The main container
+ */
+
+$container-width: 700px !default;
+$container-spacing: 10px !default;
+
+%container,
+.container {
+  max-width: $container-width;
+  padding: 0 $container-spacing;
+  margin: 0 auto;
+}
