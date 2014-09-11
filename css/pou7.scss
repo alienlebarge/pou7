@@ -14,6 +14,9 @@
     #SETTINGS
 \*------------------------------------*/
 
+/**
+ * Sass vars, etc
+ */
 
 $inuit-base-font-size:          20px !default;
 $inuit-base-line-height:        28px !default;
@@ -27,6 +30,9 @@ $inuit-base-line-height:        28px !default;
     #TOOLS
 \*------------------------------------*/
 
+/**
+ * Functions and mixins
+ */
 
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
@@ -39,6 +45,9 @@ $inuit-base-line-height:        28px !default;
     #GENERIC
 \*------------------------------------*/
 
+/**
+ * Generic, high-level styling, like resets, etc.
+ */
 
 @import "bower_components/inuit-normalize/generic.normalize";
 @import "bower_components/inuit-reset/generic.reset";
@@ -54,6 +63,9 @@ $inuit-base-line-height:        28px !default;
     #BASE
 \*------------------------------------*/
 
+/**
+ * Unclasses HTML elements (e.g. `h2`, `ul`).
+ */
 
 @import "bower_components/inuit-page/base.page";
 
@@ -72,6 +84,10 @@ $base-heading-font-family: "bello-pro";
 $base-heading-color: #556270;
 @import "base.headings";
 
+$small-font-size:   14px;
+$small-font-family: "chaparral-pro-caption",sans-serif;
+@import "base.inline-types";
+
 @import "base.vertical-rhythme";
 
 $color-links: #FF6B6B;
@@ -85,8 +101,11 @@ $color-links: #FF6B6B;
     #OBJECTS
 \*------------------------------------*/
 
+/**
+ * Objects and abstractions.
+ */
 
-/* nothing here */
+@import "objects.inline-types";
 
 
 
@@ -96,6 +115,9 @@ $color-links: #FF6B6B;
     #COMPONMENT
 \*------------------------------------*/
 
+/**
+ * Designed UI elements.
+ */
 
 $container-width: 750px;
 $container-spacing: $inuit-base-spacing-unit;
@@ -109,5 +131,8 @@ $container-spacing: $inuit-base-spacing-unit;
     #TRUMPS
 \*------------------------------------*/
 
+/**
+ * Overrides and helper classes.
+ */
 
 /* nothing here */

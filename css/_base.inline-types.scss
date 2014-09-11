@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #INLINE-TYPES
+\*------------------------------------*/
+
+/**
+ * Style for inline base tags
+ */
+
+// High-level base settings.
+$small-font-size:   $inuit-base-font-size*0.8 !default;
+$small-font-family: inherit !default;
+
+small,
+%small {
+    @include inuit-font-size($inuit-base-font-size*0.8);
+    font-family: $small-font-family;
+}
