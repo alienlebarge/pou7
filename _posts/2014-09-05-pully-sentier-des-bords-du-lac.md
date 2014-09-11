@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Pully - Sentier des Bords du Lac"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:56:59
 categories: trail
 ---
