@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: playground-map
 ---
 <article>
 
@@ -9,17 +9,29 @@ layout: default
 
   {{ content }}
 
-  {% if page.files %}
+  {% if page.map.files %}
+  <h2>Carte</h2>
+
+  <figure>
+    <div class="map" id="map"></div>
+    <figcaption>
+      <p>
+        Carte de la ballade
+      </p>
+    </figcaption>
+  </figure>
+  {% endif %}
+
+  {% if page.map.files %}
   <h2>Fichiers &agrave; t&eacute;l&eacute;charger</h2>
 
-
   <ul>
-    {% if page.files.geojson %}
+    {% if page.map.files.geojson %}
     <li>
       <a href="{{ page.files.geojson }}">Fichier GeoJSON</a>
     </li>
     {% endif %}
-    {% if page.files.kml %}
+    {% if page.map.files.kml %}
     <li>
       <a href="{{ page.files.kml }}">Fichier KML</a>
     </li>
@@ -37,3 +49,16 @@ layout: default
   </footer>
 
 </article>
+
+{% if page.map.files %}
+<!-- Mapbox script -->
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiYWxpZW5sZWJhcmdlIiwiYSI6Ik1hN3ZxVjgifQ.S2hbxqNnn7kU7HRnd6jYVg';
+var map = L.mapbox.map('map', 'alienlebarge.jdm290mc')
+    .setView([{{ page.map.lat }}, {{ page.map.long }}], {{ page.map.zoom }});
+
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('{{ page.map.files.geojson }}')
+    .addTo(map);
+</script>
+{% endif %}
