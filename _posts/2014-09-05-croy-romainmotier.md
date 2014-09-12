@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: trail
 title:  "Croy - Romainmôtier"
 author:
   name: "Cédric Aellen"

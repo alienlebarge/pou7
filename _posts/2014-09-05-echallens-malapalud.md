@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: trail
 title:  "Echallens - Malapalud"
 author:
   name: "Cédric Aellen"
