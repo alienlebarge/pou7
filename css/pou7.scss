@@ -84,13 +84,15 @@ $base-heading-font-family: "bello-pro";
 $base-heading-color: #556270;
 @import "base.headings";
 
+@import "bower_components/inuit-images/base.images";
+
+@import "base.images";
+
 $small-font-size:   14px;
 $small-font-family: "chaparral-pro-caption",sans-serif;
 @import "base.inline-types";
 
 @import "base.vertical-rhythme";
-
-@import "base.images";
 
 $color-links: #FF6B6B;
 @import "base.links";
