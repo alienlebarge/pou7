@@ -1,6 +1,6 @@
 # Site settings
 name: Pou7
-highlighter: false
 
 # Build settings
 markdown: kramdown
+highlighter: false
