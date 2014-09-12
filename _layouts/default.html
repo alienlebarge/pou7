@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/pou7.min.css">
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/oze0omv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    {% include navigation.html %}
+
+    {{ content }}
+
+  </div><!-- /container -->
+
+  <!-- Iconic -->
+  <script src="http://www.alienlebarge.ch/assets/iconic/js/iconic.min.js"></script>
+  <script>
+    var responsiveNav = document.getElementById('js-navigation');
+
+    responsiveNav.addEventListener('click', function(){
+      responsiveNav.classList.toggle("navigation--open");
+    });
+  </script>
+</body>
+
+</html>

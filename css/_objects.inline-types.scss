@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    #INLINE-TYPES
+\*------------------------------------*/
+
+/**
+ * Style for inline text classes
+ */
+
+.small {
+  @extend %small;
+}

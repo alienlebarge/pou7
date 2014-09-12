@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+$base-heading-font-family: $base-font-family !default;
+$base-heading-color:       $inuit-base-text-color !default;
+
+h1,
+.alpha,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6,
+.zeta {
+  font-family: $base-heading-font-family;
+  color: $base-heading-color;
+}

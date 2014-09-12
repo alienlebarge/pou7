@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article>
+
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  {{ content }}
+
+  {% if page.files %}
+  <h2>Fichiers &agrave; t&eacute;l&eacute;charger</h2>
+
+
+  <ul>
+    {% if page.files.geojson %}
+    <li>
+      <a href="{{ page.files.geojson }}">Fichier GeoJSON</a>
+    </li>
+    {% endif %}
+    {% if page.files.kml %}
+    <li>
+      <a href="{{ page.files.kml }}">Fichier KML</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
+
+  <hr>
+
+  <footer>
+    <h2 class="zeta">&Agrave; propos</h2>
+    <p class="small">Ce parcours vous est proposé par <a href="{{ page.author.url }}">{{ page.author.name }}</a>. Il a été publié le <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>.</p>
+  </footer>
+
+</article>

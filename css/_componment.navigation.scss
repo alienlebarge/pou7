@@ -1,0 +1,160 @@
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
+
+// High level settings
+$navigation-hit-area:      44px !default;
+$navigation-icon-size:     22px !default;
+$navigation-width:         200px !default;
+$navigation-background:    #ff6b6b !default;
+$navigation-borders:       lighten($navigation-background, 10%) !default;
+$navigation-color:         #fff !default;
+$navigation-border-radius: 3px !default;
+$navigation-space-unit:    1em !default;
+
+
+
+
+
+/**
+ * Put the navigation fixed on the top right
+*/
+.navigation {
+  position: fixed;
+  top: $navigation-space-unit;
+  right: $navigation-space-unit;
+
+  border-radius: $navigation-border-radius;
+
+  cursor: pointer;
+
+  background-color: $navigation-background;
+
+  /* default close state*/
+  height: $navigation-hit-area;
+  width: $navigation-hit-area;
+  overflow: hidden;
+}
+
+
+
+
+
+/**
+ * Override the close state properties from `.navigation`
+ */
+.navigation--open {
+  width: $navigation-width;
+  height: auto;
+
+  overflow: visible;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+
+
+
+
+/*
+ * Toggle button
+ */
+.navigation__toggle {
+  display: block;
+  float: right;
+  height: $navigation-hit-area;
+  width: $navigation-hit-area;
+
+  /**
+   * Iconic specific styling
+   */
+  .iconic {
+    color: $navigation-color;
+    * {
+      stroke: $navigation-color;
+    }
+  }
+}
+
+
+
+
+
+/**
+ * Positionning and size of the icons
+ */
+.navigation__icon {
+  height: $navigation-icon-size;
+  width: $navigation-icon-size;
+  margin-top:  ($navigation-hit-area - $navigation-icon-size)/ 2;
+  margin-left: ($navigation-hit-area - $navigation-icon-size)/ 2;
+}
+
+
+
+
+
+/**
+ * Hide the *open* icon so we can see the *close* one
+ */
+.navigation--open .navigation__icon--open {
+  margin: 0;
+  height: 0;
+  width: 0;
+}
+
+
+
+
+
+/**
+ * List layout
+ */
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: $navigation-width;
+
+  position: absolute;
+  top: $navigation-hit-area;
+  left: 0;
+
+  border-bottom-left-radius:  $navigation-border-radius;
+  border-bottom-right-radius: $navigation-border-radius;
+
+  background-color: $navigation-background;
+}
+
+
+
+
+
+/**
+ * Separator between menu items
+ */
+.navigation__item {
+  border-top: 1px solid $navigation-borders;
+}
+
+
+
+
+
+/**
+ * Menu links are full width clickable
+ */
+.navigation__link {
+  color: $navigation-color;
+  display: block;
+  white-space: nowrap;
+  padding-right: ($navigation-hit-area - $navigation-icon-size) / 2;
+  padding-left:  ($navigation-hit-area - $navigation-icon-size) / 2;
+  line-height: $navigation-hit-area;
+
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

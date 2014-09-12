@@ -1,0 +1,141 @@
+/*------------------------------------*\
+    #POU7
+\*------------------------------------*/
+
+/**
+ * Welcome in Pou7's styles
+ */
+
+
+
+
+
+/*------------------------------------*\
+    #SETTINGS
+\*------------------------------------*/
+
+/**
+ * Sass vars, etc
+ */
+
+$inuit-base-font-size:          20px !default;
+$inuit-base-line-height:        28px !default;
+@import "bower_components/inuit-defaults/settings.defaults";
+
+
+
+
+
+/*------------------------------------*\
+    #TOOLS
+\*------------------------------------*/
+
+/**
+ * Functions and mixins
+ */
+
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+
+
+
+
+
+/*------------------------------------*\
+    #GENERIC
+\*------------------------------------*/
+
+/**
+ * Generic, high-level styling, like resets, etc.
+ */
+
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-reset/generic.reset";
+@import "generic.reset-fonts";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "bower_components/inuit-shared/generic.shared";
+
+
+
+
+
+/*------------------------------------*\
+    #BASE
+\*------------------------------------*/
+
+/**
+ * Unclasses HTML elements (e.g. `h2`, `ul`).
+ */
+
+@import "bower_components/inuit-page/base.page";
+
+$base-font-family:  "chaparral-pro",Georgia,serif;
+@import "base.page";
+
+$inuit-heading-size-1:  52px;
+$inuit-heading-size-2:  40px;
+$inuit-heading-size-3:  30px;
+$inuit-heading-size-4:  28px;
+$inuit-heading-size-5:  22px;
+$inuit-heading-size-6:  18px;
+@import "bower_components/inuit-headings/base.headings";
+
+$base-heading-font-family: "bello-pro";
+$base-heading-color: #556270;
+@import "base.headings";
+
+$small-font-size:   14px;
+$small-font-family: "chaparral-pro-caption",sans-serif;
+@import "base.inline-types";
+
+@import "base.vertical-rhythme";
+
+$color-links: #FF6B6B;
+@import "base.links";
+
+
+
+
+
+/*------------------------------------*\
+    #OBJECTS
+\*------------------------------------*/
+
+/**
+ * Objects and abstractions.
+ */
+
+@import "objects.inline-types";
+
+
+
+
+
+/*------------------------------------*\
+    #COMPONMENT
+\*------------------------------------*/
+
+/**
+ * Designed UI elements.
+ */
+
+$container-width: 750px;
+$container-spacing: $inuit-base-spacing-unit;
+@import "componment.wrappers";
+
+$navigation-sapce-unit: $inuit-base-spacing-unit;
+@import "componment.navigation";
+
+
+
+
+
+/*------------------------------------*\
+    #TRUMPS
+\*------------------------------------*/
+
+/**
+ * Overrides and helper classes.
+ */
+
+/* nothing here */
