@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:56:59
 categories: trail
-files:
-  geojson: "/Pully-SentierDesBordsDuLac.geojson"
+map:
+  lat: 46.505259
+  long: 6.651449
+  zoom: 14
+  files:
+    geojson: "/Pully-SentierDesBordsDuLac.geojson"
 ---
 
 Il est possible de faire un aller simple et de revenir par avec le bus des TL.  

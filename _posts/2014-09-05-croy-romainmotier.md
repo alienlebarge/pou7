@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 09:49:52
 categories: trail
-files:
-  geojson: "/Croy-Romainmotier.geojson"
+map:
+  lat: 46.693047
+  long: 6.469917
+  zoom: 15
+  files:
+    geojson: "/Croy-Romainmotier.geojson"
 ---
 
 Il est possible de parquer à Croy au terrain de football.  

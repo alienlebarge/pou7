@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-03-20 10:37:04
 categories: trail
-files:
-  geojson: "/MollieMargot-CheminDeLAncienPompage-RefugeDeLaPlanie.geojson"
+map:
+  lat: 46.561013
+  long: 6.729126
+  zoom: 15
+  files:
+    geojson: "/MollieMargot-CheminDeLAncienPompage-RefugeDeLaPlanie.geojson"
 ---
 
 Cette boucle traverse les bois du Grand Jorat. Les chemins forestiers sont tout à fait praticables avec poussette tout terrain. La boucle fait un peu plus de 3 km.  

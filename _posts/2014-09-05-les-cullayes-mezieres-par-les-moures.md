@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:40:33
 categories: trail
-files:
-  geojson: "/LesCullayes-Mezieres.geojson"
+map:
+  lat: 46.588153
+  long: 6.757107
+  zoom: 13
+  files:
+    geojson: "/LesCullayes-Mezieres.geojson"
 ---
 
 Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à gauche. Suivez ce chemin jusqu'à Mézières.  

@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:51:27
 categories: trail
-files:
-  geojson: "/LesCullayes-Servion.geojson"
+map:
+  lat: 46.569791
+  long: 6.763802
+  zoom: 14
+  files:
+    geojson: "/LesCullayes-Servion.geojson"
 ---
 
 Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à droite. Juste avant la route cantonale prendre à gauche le chemin forestier. Le suivre jusqu'à Servion.  

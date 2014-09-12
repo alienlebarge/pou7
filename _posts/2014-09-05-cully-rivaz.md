@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 09:49:34
 categories: trail
-files:
-  geojson: "Cully-Rivaz.geojson"
+map:
+  lat: 46.485065
+  long: 6.754017
+  zoom: 13
+  files:
+    geojson: "/Cully-Rivaz.geojson"
 ---
 
 Ballade d’environ 6 km dans les terrasses du Dezaley.  

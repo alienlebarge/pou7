@@ -6,8 +6,12 @@ author:
   url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:55:18
 categories: trail
-files:
-  geojson: "/Gstaad-Rougemont-LeLongDeLaSarine.geojson"
+map:
+  lat: 46.481665
+  long: 7.250633
+  zoom: 13
+  files:
+    geojson: "/Gstaad-Rougemont-LeLongDeLaSarine.geojson"
 ---
 
 Cette ballade peut-être fait avec une poussette tout terrain sans aucun problème.  
