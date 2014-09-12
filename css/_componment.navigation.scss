@@ -18,6 +18,8 @@ $navigation-space-unit:    1em !default;
 
 /**
  * Put the navigation fixed on the top right
+ *
+ * 1. Let the menu be over the maps
 */
 .navigation {
   position: fixed;
@@ -29,6 +31,8 @@ $navigation-space-unit:    1em !default;
   cursor: pointer;
 
   background-color: $navigation-background;
+
+  z-index: 1; /* [1]*/
 
   /* default close state*/
   height: $navigation-hit-area;
