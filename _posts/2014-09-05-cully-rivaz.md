@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Cully - Rivaz"
+date:   2014-09-05 09:49:34
+categories: trail
+files:
+  geojson: "Cully-Rivaz.geojson"
+---
 
 Ballade d’environ 6 km dans les terrasses du Dezaley.  
 Ballade très sympathique dans le Lavaux. L’aller se fait à pied et le retour en train. Pensez donc à vérifier les horaires CFF entre Rivaz et Cully avant.  
@@ -7,5 +15,3 @@ Ensuite, suivez le bord du lac jusqu’à la gare d’Epesses. Vous longerez les
 A noter qu’il est possible de rejoindre Epesses par les vignes depuis la Gare de Cully. Cela vous permettra d’éviter cette belle série d’escalier. Mais vous manquez le bord du lac.
 Arrivé à Epesses, il vous suffit de suivre le chemin de vignes (interdit à la circulation des voitures) jusqu’à Rivaz. C’est tout simple, c’est tout droit.  
 A Rivaz, rejoignez la gare au bord du lac.
-
-[carte](Cully-Rivaz.geojson)

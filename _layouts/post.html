@@ -6,8 +6,26 @@ layout: default
   <header>
     <h1>{{ page.title }}</h1>
   </header>
-  
+
   {{ content }}
+
+  {% if page.files %}
+  <h2>Fichiers &agrave; t&eacute;l&eacute;charger</h2>
+
+
+  <ul>
+    {% if page.files.geojson %}
+    <li>
+      <a href="{{ page.files.geojson }}">Fichier GeoJSON</a>
+    </li>
+    {% endif %}
+    {% if page.files.kml %}
+    <li>
+      <a href="{{ page.files.kml }}">Fichier KML</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
 
   <hr>
 

@@ -9,4 +9,4 @@ C’est une sympathique ballade de 3 km qui traverse les Bois de la Côte puis e
 Il suffit de suivre les indications des sentiers pédestres entre le Collège des Cullayes et Mézières.  
 Vous trouverez un coin pique-nique à peut prêt mi-parcourt.
 
-[carte](LesCullayes-Mezieres-BoisDeLaCote.geojson)
+<img class="iconic iconic-md" data-src="http://www.alienlebarge.ch/assets/iconic/svg/smart/file.svg" data-file-extension="geojson"> [carte](/LesCullayes-Mezieres-BoisDeLaCote.geojson)
