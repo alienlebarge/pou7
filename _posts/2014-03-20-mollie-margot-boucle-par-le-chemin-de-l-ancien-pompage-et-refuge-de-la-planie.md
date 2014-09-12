@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Mollie-Margot boucle par le chemin de l'Ancien Pompage et Refuge de la Planie"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-03-20 10:37:04
 categories: trail
 files:

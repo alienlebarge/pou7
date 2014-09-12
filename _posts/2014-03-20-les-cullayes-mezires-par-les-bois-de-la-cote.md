@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Les Cullayes - Mézières par les Bois de la Côte"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-03-20 09:55:28
 categories: trail
 ---

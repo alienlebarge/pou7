@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Mollie-Margot boucle par chemin des Deux Refuges et chemin de Nazareth"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:55:00
 categories: trail
 files:

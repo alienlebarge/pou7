@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Croy - Romainmôtier"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 09:49:52
 categories: trail
 files:

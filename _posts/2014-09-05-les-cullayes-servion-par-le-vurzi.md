@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Les Cullayes - Servion par Le Vurzi"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:51:27
 categories: trail
 files:

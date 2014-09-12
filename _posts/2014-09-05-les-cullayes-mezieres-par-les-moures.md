@@ -1,6 +1,9 @@
 ---
 layout: post
-title:  "Les Cullayes - Mézières *par Les Moures*"
+title:  "Les Cullayes - Mézières par Les Moures"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:40:33
 categories: trail
 files:

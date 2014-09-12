@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Cully - Rivaz"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 09:49:34
 categories: trail
 files:

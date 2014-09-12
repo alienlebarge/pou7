@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Gstaad - Rougement le long de la Sarine"
+author:
+  name: "Cédric Aellen"
+  url: http://www.twitter.com/alienlebarge
 date:   2014-09-05 10:55:18
 categories: trail
 files:
