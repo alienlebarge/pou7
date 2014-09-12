@@ -4,10 +4,10 @@ title: Pou7
 ---
 
 <header>
-  <h1><a href="/">{{ site.name }}</a></h1>
+  <h1>{{ site.name }} &ndash; Balades pour toute la famille</h1>
 </header>
 
-<h2>Ballades</h2>
+<h2>Les différentes promenades</h2>
 <ul>
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
