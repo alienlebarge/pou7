@@ -123,6 +123,9 @@ $container-width: 750px;
 $container-spacing: $inuit-base-spacing-unit;
 @import "componment.wrappers";
 
+$navigation-sapce-unit: $inuit-base-spacing-unit;
+@import "componment.navigation";
+
 
 
 

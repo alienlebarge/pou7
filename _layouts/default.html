@@ -19,10 +19,21 @@
 
   <div class="container">
 
+    {% include navigation.html %}
+
     {{ content }}
 
   </div><!-- /container -->
 
+  <!-- Iconic -->
+  <script src="http://www.alienlebarge.ch/assets/iconic/js/iconic.min.js"></script>
+  <script>
+    var responsiveNav = document.getElementById('js-navigation');
+
+    responsiveNav.addEventListener('click', function(){
+      responsiveNav.classList.toggle("navigation--open");
+    });
+  </script>
 </body>
 
 </html>
