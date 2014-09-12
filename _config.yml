@@ -4,3 +4,4 @@ name: Pou7
 # Build settings
 markdown: kramdown
 highlighter: false
+permalink: /:year/:month/:day/:title
