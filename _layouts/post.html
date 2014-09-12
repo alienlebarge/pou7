@@ -31,7 +31,9 @@ layout: default
 
   <footer>
     <h2 class="zeta">&Agrave; propos</h2>
-    <p class="small">Ce parcours vous est proposé par <a href="{{ page.author.url }}">{{ page.author.name }}</a>. Il a été publié le <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>.</p>
+    <p class="small">
+      {% if page.author %}Ce parcours vous est proposé par <a href="{{ page.author.url }}">{{ page.author.name }}</a>. {% endif %}Il a été publié le <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>.
+      </p>
   </footer>
 
 </article>
