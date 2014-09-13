@@ -32,7 +32,7 @@ $navigation-space-unit:    1em !default;
 
   background-color: $navigation-background;
 
-  z-index: 1; /* [1]*/
+  z-index: 99999; /* [1]*/
 
   /* default close state*/
   height: $navigation-hit-area;
