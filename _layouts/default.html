@@ -9,10 +9,17 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/pou7.min.css">
+  {% if page.map.files %}
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+  {% endif %}
 
   <!-- Typekit -->
   <script type="text/javascript" src="//use.typekit.net/oze0omv.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  {% if page.map.files %}
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+  {% endif %}
 </head>
 
 <body>
