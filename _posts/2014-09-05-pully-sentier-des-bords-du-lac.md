@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Pully - Sentier des Bords du Lac"
 author:
   name: "Cédric Aellen"

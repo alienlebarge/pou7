@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Gstaad - Rougement le long de la Sarine"
 author:
   name: "Cédric Aellen"

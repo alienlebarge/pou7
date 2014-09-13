@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Les Cullayes - Refuge des Quatres Croisées"
 author:
   name: "Cédric Aellen"

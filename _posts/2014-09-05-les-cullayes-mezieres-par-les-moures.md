@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Les Cullayes - Mézières par Les Moures"
 author:
   name: "Cédric Aellen"

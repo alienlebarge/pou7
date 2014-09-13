@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Les Cullayes - Servion par Le Vurzi"
 author:
   name: "Cédric Aellen"

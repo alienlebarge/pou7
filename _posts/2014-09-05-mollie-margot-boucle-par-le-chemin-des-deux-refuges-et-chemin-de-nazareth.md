@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Mollie-Margot boucle par chemin des Deux Refuges et chemin de Nazareth"
 author:
   name: "Cédric Aellen"

@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Les Cullayes - Mézières par les Bois de la Côte"
 author:
   name: "Cédric Aellen"

@@ -1,5 +1,5 @@
 ---
-layout: trail
+layout: post
 title:  "Cully - Rivaz"
 author:
   name: "Cédric Aellen"
