@@ -14,6 +14,10 @@ map:
     geojson: "/LesCullayes-Mezieres.geojson"
 ---
 
-Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à gauche. Suivez ce chemin jusqu'à Mézières.  
-Il y a trois places de jeux le long de ce parcours: une au centre des Cullayes, une au terrain de football de Mézières et une au petit collège de Mézières.  
-Il est possible de remonter au Cullayes avec le bus trailal 75.
+L'entier de la balade est bétonné. Tous les types de poussettes peuvent faire ce parcours.
+
+Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à gauche. Suivez ce chemin jusqu'à Mézières.
+
+Il y a trois places de jeux le long de ce parcours: une au centre des Cullayes, une au terrain de football de Mézières et une au petit collège de Mézières.
+
+Il est possible de remonter au Cullayes avec le bus 75.

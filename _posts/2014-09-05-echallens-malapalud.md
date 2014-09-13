@@ -15,3 +15,5 @@ map:
 ---
 
 Parquer aux Tennis Club d'Echallens. Suivez le chemin qui longe le Talens jusqu'à la route de La Tuillère puis prenez en direction de Malapalud. Ensuite, revenez par les champs en direction d'Echallens.
+
+La ballade est praticable en poussette tout terrain. Mais une poussette de ville devrait également faire l'affaire.
