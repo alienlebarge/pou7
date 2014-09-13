@@ -13,6 +13,18 @@ title: Pou7
 <h2>Les différentes promenades</h2>
 <ul>
   {% for post in site.posts %}
+    {% if post.categories contains 'trail' %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Les actualités</h2>
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains 'post' %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
