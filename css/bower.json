@@ -33,6 +33,7 @@
     "inuit-reset": "~0.1.1",
     "inuit-shared": "~0.1.3",
     "inuit-images": "~0.3.2",
-    "inuit-list-ui": "~0.4.1"
+    "inuit-list-ui": "~0.4.1",
+    "inuit-spacing": "~0.6.2"
   }
 }
