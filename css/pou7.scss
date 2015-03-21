@@ -20,7 +20,7 @@
 
 $inuit-base-font-size:          20px !default;
 $inuit-base-line-height:        28px !default;
-@import "bower_components/inuit-defaults/settings.defaults";
+@import "../bower_components/inuit-defaults/settings.defaults";
 
 
 
@@ -34,8 +34,8 @@ $inuit-base-line-height:        28px !default;
  * Functions and mixins
  */
 
-@import "bower_components/inuit-functions/tools.functions";
-@import "bower_components/inuit-mixins/tools.mixins";
+@import "../bower_components/inuit-functions/tools.functions";
+@import "../bower_components/inuit-mixins/tools.mixins";
 
 
 
@@ -49,11 +49,11 @@ $inuit-base-line-height:        28px !default;
  * Generic, high-level styling, like resets, etc.
  */
 
-@import "bower_components/inuit-normalize/generic.normalize";
-@import "bower_components/inuit-reset/generic.reset";
+@import "../bower_components/inuit-normalize/generic.normalize";
+@import "../bower_components/inuit-reset/generic.reset";
 @import "generic.reset-fonts";
-@import "bower_components/inuit-box-sizing/generic.box-sizing";
-@import "bower_components/inuit-shared/generic.shared";
+@import "../bower_components/inuit-box-sizing/generic.box-sizing";
+@import "../bower_components/inuit-shared/generic.shared";
 
 
 
@@ -67,7 +67,7 @@ $inuit-base-line-height:        28px !default;
  * Unclasses HTML elements (e.g. `h2`, `ul`).
  */
 
-@import "bower_components/inuit-page/base.page";
+@import "../bower_components/inuit-page/base.page";
 
 $base-font-family:  "chaparral-pro",Georgia,serif;
 @import "base.page";
@@ -78,13 +78,13 @@ $inuit-heading-size-3:  30px;
 $inuit-heading-size-4:  28px;
 $inuit-heading-size-5:  22px;
 $inuit-heading-size-6:  18px;
-@import "bower_components/inuit-headings/base.headings";
+@import "../bower_components/inuit-headings/base.headings";
 
 $base-heading-font-family: "bello-pro";
 $base-heading-color: #556270;
 @import "base.headings";
 
-@import "bower_components/inuit-images/base.images";
+@import "../bower_components/inuit-images/base.images";
 
 @import "base.images";
 
@@ -110,7 +110,7 @@ $color-links: #FF6B6B;
  */
 
 @import "objects.inline-types";
-@import "bower_components/inuit-list-ui/objects.list-ui";
+@import "../bower_components/inuit-list-ui/objects.list-ui";
 
 
 
@@ -146,4 +146,4 @@ $navigation-sapce-unit: $inuit-base-spacing-unit;
  */
 
 $inuit-enable-margins--none : true;
-@import "bower_components/inuit-spacing/trumps.spacing";
+@import "../bower_components/inuit-spacing/trumps.spacing";
