@@ -26,6 +26,16 @@ module.exports = function(grunt) {
           'css/pou7.css': 'css/pou7.scss'
         },
       }
+    },
+
+
+
+
+
+    shell: {
+      jekyll: {
+        command: 'jekyll build'
+      }
     }
 
 
@@ -36,8 +46,10 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the "sass" task.
   grunt.loadNpmTasks('grunt-contrib-sass');
+  // Load the plugin that provides the "shell" task.
+  grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['sass', 'shell']);
 
 };
