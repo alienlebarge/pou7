@@ -1,10 +1,50 @@
----
-layout: playground-map
-title: Places de jeux
----
+<!DOCTYPE html>
+<html>
 
-<header>
-  <h1>{{ page.title }}</h1>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Places de jeux</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/pou7.min.css">
+  <link rel='stylesheet prefetch' href='http://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css'>
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/oze0omv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="navigation" id="js-navigation">
+  <div class="navigation__toggle">
+    <img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/menu.svg" class="iconic navigation__icon navigation__icon--open" aria-hidden="true"/><!--
+ --><img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/x.svg" class="iconic navigation__icon navigation__icon--close" aria-hidden="true"/>
+  </div>
+  <ul class="navigation__list">
+    <li class="navigation__item">
+      <a href="/" class="navigation__link">Accueil</a>
+    </li>
+    <li class="navigation__item">
+      <a href="/a-propos.html" class="navigation__link">&Agrave; propos</a>
+    </li>
+    </li>
+    <li class="navigation__item">
+      <a href="/places-de-jeux.html" class="navigation__link">Places de jeux</a>
+    </li>
+  </ul>
+</div>
+
+
+    <header>
+  <h1>Places de jeux</h1>
 </header>
 
 <p>
@@ -71,3 +111,21 @@ La carte ci-dessous présente les différents lieux répertoriés sur le site <a
 
     });
 </script>
+
+
+  </div><!-- /container -->
+
+  <!-- Iconic -->
+  <script src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/js/iconic.min.js"></script>
+
+  <script>
+  var responsiveNav = document.getElementById('js-navigation');
+
+  responsiveNav.addEventListener('click', function(){
+    responsiveNav.classList.toggle("navigation--open");
+  });
+</script>
+
+</body>
+
+</html>

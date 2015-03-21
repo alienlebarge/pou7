@@ -1,10 +1,49 @@
----
-layout: default
-title: Pou7
----
+<!DOCTYPE html>
+<html>
 
-<header>
-  <h1>{{ site.name }}</h1>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Pou7</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/pou7.min.css">
+  
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/oze0omv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="navigation" id="js-navigation">
+  <div class="navigation__toggle">
+    <img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/menu.svg" class="iconic navigation__icon navigation__icon--open" aria-hidden="true"/><!--
+ --><img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/x.svg" class="iconic navigation__icon navigation__icon--close" aria-hidden="true"/>
+  </div>
+  <ul class="navigation__list">
+    <li class="navigation__item">
+      <a href="/" class="navigation__link">Accueil</a>
+    </li>
+    <li class="navigation__item">
+      <a href="/a-propos.html" class="navigation__link">&Agrave; propos</a>
+    </li>
+    </li>
+    <li class="navigation__item">
+      <a href="/places-de-jeux.html" class="navigation__link">Places de jeux</a>
+    </li>
+  </ul>
+</div>
+
+
+    <header>
+  <h1>Pou7</h1>
   <p>
     Vous êtes à la recherche de balades accessibles à toute la famille ?<br>Bienvenue sur pou7.ch !
   </p>
@@ -13,19 +52,104 @@ title: Pou7
 <h2>Les balades</h2>
 
 <ul class="list-ui">
-  {% for post in site.categories['trail'] %}
+  
   <li class="list-ui__item">
     <p class="m0">
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="/2014/10/03/gurten">Le Gurten</a>
     </p>
   </li>
-  {% endfor %}
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/pully-sentier-des-bords-du-lac">Pully - Sentier des Bords du Lac</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/gstaad-rougemont-le-long-de-la-sarine">Gstaad - Rougement le long de la Sarine</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/mollie-margot-boucle-par-le-chemin-des-deux-refuges-et-chemin-de-nazareth">Mollie-Margot boucle par chemin des Deux Refuges et chemin de Nazareth</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/les-cullayes-servion-par-le-vurzi">Les Cullayes - Servion par Le Vurzi</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/les-cullayes-refuge-des-quatres-croisees">Les Cullayes - Refuge des Quatres Croisées</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/les-cullayes-mezieres-par-les-moures">Les Cullayes - Mézières par Les Moures</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/echallens-malapalud">Echallens - Malapalud</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/croy-romainmotier">Croy - Romainmôtier</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/09/05/cully-rivaz">Cully - Rivaz</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/03/20/mollie-margot-boucle-par-le-chemin-de-l-ancien-pompage-et-refuge-de-la-planie">Mollie-Margot boucle par le chemin de l'Ancien Pompage et Refuge de la Planie</a>
+    </p>
+  </li>
+  
+  <li class="list-ui__item">
+    <p class="m0">
+      <a href="/2014/03/20/les-cullayes-mezires-par-les-bois-de-la-cote">Les Cullayes - Mézières par les Bois de la Côte</a>
+    </p>
+  </li>
+  
 </ul>
 
 <h2>Les actualités</h2>
 
 <ul>
-  {% for post in site.categories['post'] %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+  
+  <li><span>13 Sep 2014</span> &raquo; <a href="/2014/09/13/hello-pou7">Hello Pou7 !</a></li>
+  
 </ul>
+
+
+  </div><!-- /container -->
+
+  <!-- Iconic -->
+  <script src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/js/iconic.min.js"></script>
+
+  <script>
+  var responsiveNav = document.getElementById('js-navigation');
+
+  responsiveNav.addEventListener('click', function(){
+    responsiveNav.classList.toggle("navigation--open");
+  });
+</script>
+
+
+</body>
+
+</html>

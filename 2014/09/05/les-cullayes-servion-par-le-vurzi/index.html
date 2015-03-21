@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Les Cullayes - Servion par Le Vurzi</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/pou7.min.css">
+  
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+  
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/oze0omv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+  
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="navigation" id="js-navigation">
+  <div class="navigation__toggle">
+    <img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/menu.svg" class="iconic navigation__icon navigation__icon--open" aria-hidden="true"/><!--
+ --><img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/x.svg" class="iconic navigation__icon navigation__icon--close" aria-hidden="true"/>
+  </div>
+  <ul class="navigation__list">
+    <li class="navigation__item">
+      <a href="/" class="navigation__link">Accueil</a>
+    </li>
+    <li class="navigation__item">
+      <a href="/a-propos.html" class="navigation__link">&Agrave; propos</a>
+    </li>
+    </li>
+    <li class="navigation__item">
+      <a href="/places-de-jeux.html" class="navigation__link">Places de jeux</a>
+    </li>
+  </ul>
+</div>
+
+
+    <article>
+
+  <header>
+    <h1>Les Cullayes - Servion par Le Vurzi</h1>
+  </header>
+
+  <p>Depuis le centre du village des Cullayes, prenez le chemin des Moures en direction de Mézières. Après avoir passé la STEP et fait la petite montée, emprunter le chemin bétonné qui part à droite. Juste avant la route cantonale prendre à gauche le chemin forestier. Le suivre jusqu’à Servion.</p>
+
+<p>Ce parcours passe vers deux places de jeux. La première se trouve au centre du village des Cullayes. La deuxième est au collège de Servion.</p>
+
+<p>À noter que le chemin emprunté surplombe le Zoo de Servion. Cependant, il sera difficile de le rejoindre avec une poussette.<br />
+Il est possible de retourner aux Cullayes avec le car postal 75.</p>
+
+
+  
+  <h2>Carte</h2>
+
+  <figure>
+    <div class="map" id="map"></div>
+    <figcaption>
+      <p>
+        Carte de la ballade
+      </p>
+    </figcaption>
+  </figure>
+  
+
+  
+  <h2>Fichiers &agrave; t&eacute;l&eacute;charger</h2>
+
+  <ul>
+    
+    <li>
+      <a href="">Fichier GeoJSON</a>
+    </li>
+    
+    
+  </ul>
+  
+
+  <hr>
+  <h2>Commentaires</h2>
+
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'pou7';
+        var disqus_identifier = '/2014/09/05/les-cullayes-servion-par-le-vurzi';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  <hr>
+
+  <footer>
+    <h2 class="zeta">&Agrave; propos</h2>
+    <p class="small">
+      Ce texte vous est proposé par <a href="http://www.twitter.com/alienlebarge">Cédric Aellen</a>. Il a été publié le <time datetime="2014-09-05 12:51:27 +0200">05 Sep 2014</time>.
+      </p>
+  </footer>
+
+</article>
+
+
+<!-- Mapbox script -->
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiYWxpZW5sZWJhcmdlIiwiYSI6Ik1hN3ZxVjgifQ.S2hbxqNnn7kU7HRnd6jYVg';
+var map = L.mapbox.map('map', 'alienlebarge.jdm290mc')
+    .setView([46.569791, 6.763802], 14);
+
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('/LesCullayes-Servion.geojson')
+    .addTo(map);
+</script>
+
+
+
+  </div><!-- /container -->
+
+  <!-- Iconic -->
+  <script src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/js/iconic.min.js"></script>
+
+  <script>
+  var responsiveNav = document.getElementById('js-navigation');
+
+  responsiveNav.addEventListener('click', function(){
+    responsiveNav.classList.toggle("navigation--open");
+  });
+</script>
+
+
+</body>
+
+</html>

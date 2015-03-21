@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gstaad - Rougement le long de la Sarine</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/pou7.min.css">
+  
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.css' rel='stylesheet' />
+  
+
+  <!-- Typekit -->
+  <script type="text/javascript" src="//use.typekit.net/oze0omv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.0/mapbox.js'></script>
+  
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="navigation" id="js-navigation">
+  <div class="navigation__toggle">
+    <img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/menu.svg" class="iconic navigation__icon navigation__icon--open" aria-hidden="true"/><!--
+ --><img data-src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/svg/smart/x.svg" class="iconic navigation__icon navigation__icon--close" aria-hidden="true"/>
+  </div>
+  <ul class="navigation__list">
+    <li class="navigation__item">
+      <a href="/" class="navigation__link">Accueil</a>
+    </li>
+    <li class="navigation__item">
+      <a href="/a-propos.html" class="navigation__link">&Agrave; propos</a>
+    </li>
+    </li>
+    <li class="navigation__item">
+      <a href="/places-de-jeux.html" class="navigation__link">Places de jeux</a>
+    </li>
+  </ul>
+</div>
+
+
+    <article>
+
+  <header>
+    <h1>Gstaad - Rougement le long de la Sarine</h1>
+  </header>
+
+  <p>Cette ballade peut-être faite avec une poussette tout terrain sans aucun problème.</p>
+
+<p>Il s’agit d’un chemin très bien aménagé qui longe la Sarine. Vous trouverez une place de pique-nique avec des tables et un emplacement pour faire un feu. Le bois est même à disposition. Elle se trouve au bout de l’aérodrome de Saanen juste après le pont.</p>
+
+<p>Une idée est de prendre le <a href="http://www.goldenpass.ch/">MOB</a> à Montreux jusqu’à Gstaad au départ de la ballade. Et pour le retour de reprendre le train entre Rougemont et Montreux.</p>
+
+
+  
+  <h2>Carte</h2>
+
+  <figure>
+    <div class="map" id="map"></div>
+    <figcaption>
+      <p>
+        Carte de la ballade
+      </p>
+    </figcaption>
+  </figure>
+  
+
+  
+  <h2>Fichiers &agrave; t&eacute;l&eacute;charger</h2>
+
+  <ul>
+    
+    <li>
+      <a href="">Fichier GeoJSON</a>
+    </li>
+    
+    
+  </ul>
+  
+
+  <hr>
+  <h2>Commentaires</h2>
+
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'pou7';
+        var disqus_identifier = '/2014/09/05/gstaad-rougemont-le-long-de-la-sarine';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  <hr>
+
+  <footer>
+    <h2 class="zeta">&Agrave; propos</h2>
+    <p class="small">
+      Ce texte vous est proposé par <a href="http://www.twitter.com/alienlebarge">Cédric Aellen</a>. Il a été publié le <time datetime="2014-09-05 12:55:18 +0200">05 Sep 2014</time>.
+      </p>
+  </footer>
+
+</article>
+
+
+<!-- Mapbox script -->
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiYWxpZW5sZWJhcmdlIiwiYSI6Ik1hN3ZxVjgifQ.S2hbxqNnn7kU7HRnd6jYVg';
+var map = L.mapbox.map('map', 'alienlebarge.jdm290mc')
+    .setView([46.481665, 7.250633], 13);
+
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('/Gstaad-Rougemont-LeLongDeLaSarine.geojson')
+    .addTo(map);
+</script>
+
+
+
+  </div><!-- /container -->
+
+  <!-- Iconic -->
+  <script src="https://dlgjp9x71cipk.cloudfront.net/assets/iconic/1.7.0/js/iconic.min.js"></script>
+
+  <script>
+  var responsiveNav = document.getElementById('js-navigation');
+
+  responsiveNav.addEventListener('click', function(){
+    responsiveNav.classList.toggle("navigation--open");
+  });
+</script>
+
+
+</body>
+
+</html>
