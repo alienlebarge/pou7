@@ -32,6 +32,23 @@ module.exports = function(grunt) {
 
 
 
+    autoprefixer: {
+      options: {
+        browser: ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1'],
+        map: true
+      },
+      dist: {
+        src: 'css/pou7.min.css'
+      },
+      dev: {
+        src: 'css/pou7.css'
+      },
+    },
+
+
+
+
+
     shell: {
       jekyll: {
         command: 'jekyll build'
@@ -88,6 +105,8 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the "sass" task.
   grunt.loadNpmTasks('grunt-contrib-sass');
+  // Load the plugin that provides the "autoprefixer" task.
+  grunt.loadNpmTasks('grunt-autoprefixer');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-shell');
   // Load the plugin that provides the "shell" task.
@@ -98,7 +117,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-gh-pages');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'shell', 'browserSync', 'watch']);
-  grunt.registerTask('publish', ['sass', 'shell', 'gh-pages']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'shell', 'browserSync', 'watch']);
+  grunt.registerTask('publish', ['sass', 'autoprefixer', 'shell', 'gh-pages']);
 
 };
