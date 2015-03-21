@@ -36,6 +36,17 @@ module.exports = function(grunt) {
       jekyll: {
         command: 'jekyll build'
       }
+    },
+
+
+
+
+
+    'gh-pages': {
+      options: {
+        base: '_site'
+      },
+      src: ['**']
     }
 
 
@@ -48,8 +59,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-shell');
+  // Load the plugin that provides the "gh-pages" task.
+  grunt.loadNpmTasks('grunt-gh-pages');
 
-  // Default task(s).
+  // Tasks
   grunt.registerTask('default', ['sass', 'shell']);
+  grunt.registerTask('publish', ['sass', 'shell', 'gh-pages']);
 
 };
