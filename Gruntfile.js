@@ -42,6 +42,21 @@ module.exports = function(grunt) {
 
 
 
+    browserSync: {
+      bsFiles: {
+        src : 'css/*.css'
+      },
+      options: {
+        server: {
+          baseDir: "./_site/"
+        }
+      }
+    }
+
+
+
+
+
     'gh-pages': {
       options: {
         base: '_site'
@@ -59,11 +74,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-shell');
-  // Load the plugin that provides the "gh-pages" task.
+  // Load the plugin that provides the "shell" task.
+  grunt.loadNpmTasks('grunt-browser-sync');
+    // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'shell']);
+  grunt.registerTask('default', ['sass', 'shell', 'browserSync']);
   grunt.registerTask('publish', ['sass', 'shell', 'gh-pages']);
 
 };
