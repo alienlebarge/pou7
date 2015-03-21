@@ -44,14 +44,30 @@ module.exports = function(grunt) {
 
     browserSync: {
       bsFiles: {
-        src : 'css/*.css'
+        src : ['_site/**/*.css', '_site/**/*.html']
       },
       options: {
+        watchTask: true,
         server: {
           baseDir: "./_site/"
         }
       }
-    }
+    },
+
+
+
+
+
+    watch: {
+      css: {
+        files: ['css/**/*.scss'],
+        tasks: ['sass']
+      },
+      jekyll: {
+        files: ['_posts/*.md', '_include/*.*', '_layouts/*.*', '*.html', '*.md'],
+        tasks: ['shell']
+      }
+    },
 
 
 
@@ -76,11 +92,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
   // Load the plugin that provides the "shell" task.
   grunt.loadNpmTasks('grunt-browser-sync');
-    // Load the plugin that provides the "gh-pages" task.
+  // Load the plugin that provides the "shell" task.
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'shell', 'browserSync']);
+  grunt.registerTask('default', ['sass', 'shell', 'browserSync', 'watch']);
   grunt.registerTask('publish', ['sass', 'shell', 'gh-pages']);
 
 };

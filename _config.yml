@@ -5,3 +5,4 @@ name: Pou7
 markdown: kramdown
 highlighter: false
 permalink: /:year/:month/:day/:title
+exclude: [node_modules, bower_components, bower.json, Gruntfile.js, LICENSE, package.json]
