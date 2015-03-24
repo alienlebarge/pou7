@@ -110,6 +110,7 @@ $color-links: #FF6B6B;
  */
 
 @import "objects.inline-types";
+@import "objects.helper-classes";
 @import "../bower_components/inuit-list-ui/objects.list-ui";
 
 
@@ -146,4 +147,7 @@ $navigation-sapce-unit: $inuit-base-spacing-unit;
  */
 
 $inuit-enable-margins--none : true;
+$inuit-enable-paddings:       true;
+$inuit-enable-paddings--none: true;
+
 @import "../bower_components/inuit-spacing/trumps.spacing";

@@ -826,6 +826,18 @@ a {
  * Style for inline text classes
  */
 /*------------------------------------*\
+    #HELPER-CLASSES
+\*------------------------------------*/
+/**
+ * Center a block
+ */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------------------------*\
     #LIST-UI
 \*------------------------------------*/
 /**
@@ -1037,6 +1049,74 @@ a {
 .mv0 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+/**
+ * Padding helper classes.
+ *
+ * Add paddings.
+ */
+.p {
+  padding: 28px !important;
+}
+
+.pt {
+  padding-top: 28px !important;
+}
+
+.pr {
+  padding-right: 28px !important;
+}
+
+.pb {
+  padding-bottom: 28px !important;
+}
+
+.pl {
+  padding-left: 28px !important;
+}
+
+.ph {
+  padding-right: 28px !important;
+  padding-left: 28px !important;
+}
+
+.pv {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+
+/**
+ * Remove paddings.
+ */
+.p0 {
+  padding: 0 !important;
+}
+
+.pt0 {
+  padding-top: 0 !important;
+}
+
+.pr0 {
+  padding-right: 0 !important;
+}
+
+.pb0 {
+  padding-bottom: 0 !important;
+}
+
+.pl0 {
+  padding-left: 0 !important;
+}
+
+.ph0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.pv0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 /*# sourceMappingURL=pou7.css.map */

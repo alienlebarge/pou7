@@ -43,7 +43,429 @@
 
 
     <header>
-  <h1>Pou7</h1>
+  <figure class="pt">
+    <svg width="152" height="152" viewBox="0 0 152 152" xmlns="http://www.w3.org/2000/svg" class="center-block" style="cursor: pointer;" alt="logo">
+        <title>logo</title>
+        <defs>
+          <!-- Clip path for round logo-->
+          <clipPath id="clip-main">
+            <circle cx="76" cy="76" r="76"/>
+          </clipPath>
+        </defs>
+        <g id="Page-1" fill="none" fill-rule="evenodd" clip-path="url(#clip-main)">
+          <g id="logo">
+            <!-- background color -->
+            <rect id="background" fill="#C4DDFA" x="0" y="0" width="152" height="152"></rect>
+            <!-- Sunset -->
+            <animate
+                     xlink:href="#background"
+                     attributeName="fill"
+                     from="#C4DDFA"
+                     to="#E84B00"
+                     dur="1s"
+                     begin="logo.click+2s"
+                     fill="freeze"
+                     id="darkerStep1">
+            </animate>
+            <animate
+                     xlink:href="#background"
+                     attributeName="fill"
+                     from="#E84B00"
+                     to="#A02803"
+                     dur="0.5s"
+                     begin="darkerStep1.end"
+                     fill="freeze"
+                     id="darkerStep2">
+            </animate>
+            <animate
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xlink:href="#background"
+                     attributeName="fill"
+                     from="#A02803"
+                     to="#666"
+                     dur="0.5s"
+                     begin="darkerStep2.end"
+                     fill="freeze"
+                     id="darkerStep3">
+            </animate>
+            <!-- Sunrise -->
+            <animate
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xlink:href="#background"
+                     attributeName="fill"
+                     from="#666"
+                     to="#C4DDFA"
+                     dur="1s"
+                     begin="darkerStep3.end+1s"
+                     fill="freeze"
+                     id="lightStep1">
+            </animate>
+
+            <!-- Sun is shiny -->
+            <circle id="sun" fill="#fc0" cx="128" cy="4" r="29" />
+            <!-- Sunset -->
+            <animate
+                     xlink:href="#sun"
+                     attributeName="cy"
+                     from="4"
+                     to="200"
+                     dur="4s"
+                     begin="logo.click"
+                     values="4; 80; 150; 200"
+                     keyTimes="0; 0.5; 0.8; 1"
+                     fill="freeze"
+                     id="sunDown"
+                     />
+            <!-- Sunrise -->
+            <animate
+                     xlink:href="#sun"
+                     attributeName="cy"
+                     from="200"
+                     to="4"
+                     dur="1s"
+                     begin="sunDown.end+1s"
+                     values="200; 140; -5; 4"
+                     keyTimes="0; 0.5; 0.8; 1"
+                     fill="freeze"
+                     id="sunUp"
+                     />
+            <!-- Moon -->
+            <circle id="moon" fill="#eee" cx="30" cy="200" r="15" clip-path="url(#clip-moon)"/>
+            <!-- Moon rise -->
+            <animate
+                     xlink:href="#moon"
+                     attributeName="cy"
+                     from="200"
+                     to="30"
+                     dur="4s"
+                     begin="logo.click"
+                     values="200; 150; 20; 30"
+                     keyTimes="0; 0.5; 0.8; 1"
+                     fill="freeze"
+                     id="moonUp"
+                     />
+            <!-- Moon set -->
+            <animate
+                     xlink:href="#moon"
+                     attributeName="cy"
+                     from="30"
+                     to="200"
+                     dur="1.5s"
+                     begin="moonUp.end+1s"
+                     values="30; 25; 200"
+                     keyTimes="0; 0.1; 1"
+                     fill="freeze"
+                     id="moonUp"
+                     />
+            <!-- Floor -->
+            <circle id="floor" fill="#ACE078" cx="76" cy="203" r="76" />
+            <!-- darker floor -->
+            <animate
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xlink:href="#floor"
+                     attributeName="fill"
+                     from="#ACE078"
+                     to="RGBA(104, 172, 127, 1)"
+                     dur="4s"
+                     begin="logo.click"
+                     fill="freeze"
+                     id="darkerFloor">
+            </animate>
+            <!-- lighter floor -->
+            <animate
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xlink:href="#floor"
+                     attributeName="fill"
+                     from="RGBA(104, 172, 127, 1)"
+                     to="#ACE078"
+                     dur="1s"
+                     begin="darkerFloor.end+1s"
+                     fill="freeze"
+                     id="lighterFloor">
+            </animate>
+
+
+            <!-- Stone -->
+            <path stroke="none" fill="none" d="M113.85791,151.673028 C103.531692,143.124842 90.3545203,138 76,138 C60.1979898,138 45.8227443,144.210518 35.1069306,154.361674" id="stone-path" />
+            <circle id="stone" fill="#b2b2b2" cx="0" cy="0" r="2" />
+            <animateMotion
+                           xlink:href="#stone"
+                           dur="2s"
+                           begin="0s"
+                           fill="freeze"
+                           repeatCount="indefinite">
+              <mpath xlink:href="#stone-path" />
+            </animateMotion>
+            <!-- darker stone -->
+            <animate
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xlink:href="#stone"
+                     attributeName="fill"
+                     from="#b2b2b2"
+                     to="#333"
+                     dur="2s"
+                     begin="logo.click+2s"
+                     fill="freeze"
+                     id="darkerStone"
+                     />
+            <!-- lighter stone -->
+            <animate
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     xlink:href="#stone"
+                     attributeName="fill"
+                     from="#333"
+                     to="#b2b2b2"
+                     dur="1s"
+                     begin="darkerStone.end+1s"
+                     fill="freeze"
+                     id="lighterStone"
+                     />
+
+            <!-- Troller -->
+            <g id="troller">
+              <path d="M40.028 76.485l-7.478-11.74" id="handelbar" stroke="#fff" stroke-width="3" />
+              <path d="M76.16 39.32c20.346 0 36.84 16.493 36.84 36.84C113 96.505 96.506 113 76.16 113c-20.347 0-36.84-16.494-36.84-36.84h36.84V39.32z" id="Chariot" fill="#F25C5C" />
+              <path d="M110.066 61.73c-3.02-7.09-8.2-13.04-14.715-17.024L76.415 76.464l33.652-14.735z" id="shade" fill="#DA3F3F" />
+              <path id="nacelle-top" fill="#fff" d="M37 74h78v4H37z" />
+            </g>
+            <!-- Left wheel -->
+            <g id="wheel-right" transform="translate(79 103)">
+              <circle id="wheel-right__tire" fill="#556270" cx="15" cy="15" r="15" />
+              <circle id="wheel-right__spoke" fill="#fff" cx="15" cy="15" r="9" />
+              <circle id="wheel-right__center" fill="#556270" cx="15.5" cy="15.5" r="2.5" />
+              <animate
+                       xlink:href="#wheel-right__tire"
+                       attributeName="cy"
+                       from="15"
+                       to="15"
+                       dur="0.4s"
+                       begin="0.1s"
+                       values="15; 16; 14; 15"
+                       keyTimes="0; 0.5; 0.8; 1"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#wheel-right__spoke"
+                       attributeName="cy"
+                       from="15"
+                       to="15"
+                       dur="0.4s"
+                       begin="0.1s"
+                       values="15; 16; 14; 15"
+                       keyTimes="0; 0.5; 0.8; 1"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#wheel-right__center"
+                       attributeName="cy"
+                       from="15"
+                       to="15"
+                       dur="0.4s"
+                       begin="0.1s"
+                       values="15; 16; 14; 15"
+                       keyTimes="0; 0.5; 0.8; 1"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+            </g>
+
+            <!-- Right wheel -->
+            <g id="wheel-left" transform="translate(43 103)">
+              <circle id="wheel-left__tire" fill="#556270" cx="15" cy="15" r="15" />
+              <circle id="wheel-left__spoke" fill="#fff" cx="15" cy="15" r="9" />
+              <circle id="wheel-left__center" fill="#556270" cx="15.5" cy="15.5" r="2.5" />
+              <animate
+                       xlink:href="#wheel-left__tire"
+                       attributeName="cy"
+                       from="15"
+                       to="15"
+                       dur="0.4s"
+                       begin="0s"
+                       values="15; 16; 14; 15"
+                       keyTimes="0; 0.5; 0.8; 1"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#wheel-left__spoke"
+                       attributeName="cy"
+                       from="15"
+                       to="15"
+                       dur="0.4s"
+                       begin="0s"
+                       values="15; 16; 14; 15"
+                       keyTimes="0; 0.5; 0.8; 1"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#wheel-left__center"
+                       attributeName="cy"
+                       from="15"
+                       to="15"
+                       dur="0.4s"
+                       begin="0s"
+                       values="15; 16; 14; 15"
+                       keyTimes="0; 0.5; 0.8; 1"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+            </g>
+
+            <!-- Cloud -->
+            <g id="cloud" transform="translate(24 13)" fill="#fff">
+              <rect id="cloud__bottom" width="25" height="7" x="6" y="15"></rect>
+              <circle id="cloud__right" cx="30.5" cy="14.5" r="7.5" />
+              <circle id="cloud__center" cx="19" cy="10" r="10" />
+              <circle id="cloud__left" cx="6" cy="16" r="6" />
+              <animate
+                       xlink:href="#cloud__bottom"
+                       attributeName="x"
+                       from="115.5"
+                       to="-42.5"
+                       dur="6s"
+                       begin="0s"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#cloud__right"
+                       attributeName="cx"
+                       from="140"
+                       to="-20"
+                       dur="6s"
+                       begin="0s"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#cloud__center"
+                       attributeName="cx"
+                       from="128.5"
+                       to="-31.5"
+                       dur="6s"
+                       begin="0s"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <animate
+                       xlink:href="#cloud__left"
+                       attributeName="cx"
+                       from="115.5"
+                       to="-44.5"
+                       dur="6s"
+                       begin="0s"
+                       fill="freeze"
+                       restart="always"
+                       repeatCount = "indefinite"
+                       />
+              <!-- Night cloud -->
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__left"
+                       attributeName="fill"
+                       from="#fff"
+                       to="#333"
+                       dur="1s"
+                       begin="logo.click+3s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__center"
+                       attributeName="fill"
+                       from="#fff"
+                       to="#333"
+                       dur="1s"
+                       begin="logo.click+3s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__right"
+                       attributeName="fill"
+                       from="#fff"
+                       to="#333"
+                       dur="1s"
+                       begin="logo.click+3s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__bottom"
+                       attributeName="fill"
+                       from="#fff"
+                       to="#333"
+                       dur="1s"
+                       begin="logo.click+3s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <!-- Cloud day -->
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__left"
+                       attributeName="fill"
+                       from="#333"
+                       to="#fff"
+                       dur="1s"
+                       begin="logo.click+5s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__center"
+                       attributeName="fill"
+                       from="#333"
+                       to="#fff"
+                       dur="1s"
+                       begin="logo.click+5s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__right"
+                       attributeName="fill"
+                       from="#333"
+                       to="#fff"
+                       dur="1s"
+                       begin="logo.click+5s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+              <animate
+                       xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#cloud__bottom"
+                       attributeName="fill"
+                       from="#333"
+                       to="#fff"
+                       dur="1s"
+                       begin="logo.click+5s"
+                       fill="freeze"
+                       id="nightCloud"
+                       />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </figure>
+  <h1 class="pt0">Pou7</h1>
   <p>
     Vous êtes à la recherche de balades accessibles à toute la famille ?<br>Bienvenue sur pou7.ch !
   </p>
