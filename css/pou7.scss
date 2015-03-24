@@ -146,4 +146,7 @@ $navigation-sapce-unit: $inuit-base-spacing-unit;
  */
 
 $inuit-enable-margins--none : true;
+$inuit-enable-paddings:       true;
+$inuit-enable-paddings--none: true;
+
 @import "../bower_components/inuit-spacing/trumps.spacing";
