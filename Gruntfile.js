@@ -49,6 +49,30 @@ module.exports = function(grunt) {
 
 
 
+    clean: ["images"],
+
+
+
+
+
+    copy: {
+      main: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: ['bower_components/pou7-logo/dist/**/*.svg', 'bower_components/pou7-logo/dist/**/*.png'],
+            dest: 'images/',
+            filter: 'isFile'
+          },
+        ],
+      },
+    },
+
+
+
+
+
     shell: {
       jekyll: {
         command: 'jekyll build'
@@ -61,7 +85,7 @@ module.exports = function(grunt) {
 
     browserSync: {
       bsFiles: {
-        src : ['_site/**/*.css', '_site/**/*.html']
+        src: ['_site/**/*.css', '_site/**/*.html']
       },
       options: {
         watchTask: true,
@@ -115,9 +139,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   // Load the plugin that provides the "gh-pages" task.
   grunt.loadNpmTasks('grunt-gh-pages');
+  // Load the plugin that provides the "copy" task.
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  // Load the plugin that provides the "clean" task.
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   // Tasks
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'shell', 'browserSync', 'watch']);
-  grunt.registerTask('publish', ['sass', 'autoprefixer', 'shell', 'gh-pages']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'clean', 'copy', 'shell', 'browserSync', 'watch']);
+  grunt.registerTask('publish', ['sass', 'autoprefixer', 'clean', 'copy', 'shell', 'gh-pages']);
 
 };
